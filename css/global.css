@@ -25,3 +25,16 @@ body{
     background-color: var(--bg-color);
     font-family: var(--font-family);
 }
+
+a{
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+
+a:hover{
+    color: var(--brand-color-light);
+}
+
+ul{
+    list-style: none;
+}
