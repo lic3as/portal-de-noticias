@@ -13,17 +13,14 @@
     --text-color-secondary: #CBD5E1;
 
     --font-family: "Archivo", sans-serif;
-    --heading1: 24px/135%  800 var(--font-family);
-    --heading2: 16px/140% 800 var(--font-family);
-    --heading3: 14px/140% 800 var(--font-family);
-    --span: 14px/145% 600 var(--font-family);
-    --paragraph: 14px/160% 400 var(--font-family);
 }
 
 body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
     font-family: var(--font-family);
+    max-width: 1280px;
+    margin-inline: auto;
 }
 
 a{
@@ -37,4 +34,12 @@ a:hover{
 
 ul{
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+main{
+    margin-top: 40px;
 }

@@ -1,0 +1,132 @@
+#destaques {
+    .card{
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            inset: 0;
+            top: 50%;
+            background: linear-gradient(180deg, transparent 0%, #020617 100%);
+        }
+    }
+
+    .mark{
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 4%;
+        line-height: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 4px;
+        padding-inline: 8px;
+        padding-block: 4px;
+        display: inline-block;
+        background-color: var(--brand-color-dark);
+        box-shadow: 0px 4px 16px #02062740;
+        margin-bottom: 8px;
+    }
+
+    .info{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 135%;
+    }
+
+    .info-cols-2{
+        font-size: 14px;
+        line-height: 140%;
+        font-weight: 800;
+    }
+
+    img{
+        height: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    .figcaption{
+        position: absolute;
+        bottom: 0;
+        margin-inline: 24px;
+        margin-bottom: 24px;
+    }
+
+    .figcaption-cols-2{
+        position: absolute;
+        bottom: 0;
+        margin-inline: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+#mais-lidas{
+    margin-block: 80px;
+    
+    #header{
+        border-top: 1px solid var(--stroke-color);
+        padding-top: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 24px;
+
+        h3, span a{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 145%;
+            color: var(--text-color-secondary); 
+        }
+        
+        a:hover{
+            color: var(--brand-color-light);
+        }
+        
+    }
+
+    .card{
+        width: 292px;
+        height: 234px;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            inset: 0;
+        }
+
+        img{
+            width: 292px;
+            height: 160px;
+        }
+    }
+    
+    .mark{
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 4%;
+        line-height: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 4px;
+        padding-inline: 8px;
+        padding-block: 4px;
+        display: inline-block;
+        background-color: var(--brand-color-dark);
+        box-shadow: 0px 4px 16px #02062740;
+        margin-bottom: 8px;
+        position: absolute;
+        top: 8px;
+        margin-left: 8px;
+    }
+
+    figure p{
+        font-size: 16px;
+        line-height: 140%;
+        font-weight: 800;
+    }
+
+}
