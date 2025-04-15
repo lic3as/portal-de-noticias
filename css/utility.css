@@ -14,7 +14,14 @@
     gap: 16px;
 }
 
+.gap-32{
+    gap: 32px;
+}
 
 .grid-cols-4{
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-cols-3{
+    grid-template-columns: 2fr 1fr;
 }
